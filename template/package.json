@@ -1,0 +1,16 @@
+{
+  "name": "day-02",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "vitest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "devDependencies": {
+    "vitest": "latest"
+  },
+  "author": "",
+  "license": "ISC"
+}

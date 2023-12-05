@@ -1,0 +1,22 @@
+{
+  "name": "aoc-ts-starter",
+  "module": "index.ts",
+  "type": "module",
+  "version": "0.0.1",
+  "bin": {
+    "template-starter": "./bin/index.ts"
+  },
+  "scripts": {
+    "start": "bun ./bin/index.ts"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "commander": "^11.1.0",
+    "cross-spawn": "^7.0.3"
+  }
+}
