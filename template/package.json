@@ -1,16 +1,10 @@
 {
-  "name": "day-02",
-  "version": "1.0.0",
-  "description": "",
-  "scripts": {
-    "test": "vitest"
+  "name": "day-10",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
-  },
-  "devDependencies": {
-    "vitest": "latest"
-  },
-  "author": "",
-  "license": "ISC"
+  }
 }

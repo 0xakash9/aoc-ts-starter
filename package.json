@@ -1,13 +1,21 @@
 {
   "name": "aoc-ts-starter",
-  "module": "index.ts",
   "type": "module",
   "version": "0.0.1",
   "bin": {
-    "template-starter": "./bin/index.ts"
+    "template-starter": "bin/cli.cjs",
+    "create-aoc": "bin/cli.cjs"
   },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "cli",
+    "adventofcode",
+    "template starter"
+  ],
   "scripts": {
-    "start": "bun ./bin/index.ts"
+    "start": "bun ./bin/cli.cjs"
   },
   "devDependencies": {
     "bun-types": "latest"
@@ -16,7 +24,7 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "commander": "^11.1.0",
+    "chalk": "4.1.0",
     "cross-spawn": "^7.0.3"
   }
 }
