@@ -3,7 +3,7 @@
   "type": "module",
   "version": "0.0.1",
   "bin": {
-    "template-starter": "bin/cli.cjs",
+    "aoc-template-starter": "bin/cli.cjs",
     "create-aoc": "bin/cli.cjs"
   },
   "publishConfig": {
